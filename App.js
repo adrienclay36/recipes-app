@@ -67,7 +67,7 @@ const CustomNavigationBar = ({ title, navigation, back, route, id }) => {
     try {
       const result = await Share.share({
         message: "The Recipe's App - A test of React Native.",
-        url: "exp://exp.host/@adrienclay/meals-app",
+        url: "exp://exp.host/@adrienclay/meals-app?release-channel=default",
         title: "Check out my Recipe's!",
       });
 
